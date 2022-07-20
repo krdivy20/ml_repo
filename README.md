@@ -58,7 +58,7 @@ BUILD DOCKER IMAGE
 docker build -t <image_name>:<tagname>
 '''
 > Note: Image name for docker must be lowercase
-
+ 
 To list docker images
 '''
 docker images
@@ -79,3 +79,8 @@ To stop docker container
 docker stop <container_id>
 '''
 
+
+
+'''
+python setup.py install
+'''
